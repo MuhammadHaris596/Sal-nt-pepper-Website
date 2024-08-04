@@ -1,0 +1,1125 @@
+@font-face {
+    font-family: "poppin";
+    src: url(./assets/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family:"albra" ;
+    src: url(./fonts/albra/Albra\ Grotesk\ Light-Traced-Web/);
+}
+
+
+@font-face {
+    font-family: "apercu";
+    src: url(./fonts/apercu/Apercu/Apercu.ttf);
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url(./fonts/sistemas/SISTEMAS\ FONT\ BT.ttf);
+}
+
+@font-face {
+    font-family: "rekta";
+    src: url(./fonts/OnlineWebFonts_COM_7506247d4970c48857ce7133e18c5697/Recta\ W01\ Medium\ Condensed/);
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    padding: 0 2em;
+}
+
+ .logo{
+   width: 160px;
+   height: 80px;
+   margin-right: 10em;
+   margin-left: 6em;
+} 
+
+
+nav .nav-menu .nav-links{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 28px;
+    /* margin: 0; */
+    /* font-family:"albra" ; */
+} 
+
+
+
+.nav-links li a{
+    font-family:"apercu" ;
+    color: #fff;
+    text-decoration: none;
+   font-size: 1em;
+   font-weight: 200;
+}
+
+
+.background-image-parent {
+    
+    margin-top: 5%;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    
+}
+
+
+.background-child {
+    flex: 1;
+    /* width:90%; */
+    /* height: 120vh; */
+    background-image: url('./assets/background-image.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-container{
+
+    /* margin-left: 10em; */
+    /* width: 85%; */
+    
+}
+
+.btn-1{
+    background-color: #000;
+    color: #fff;
+    padding: 18px 15px;
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 30px ;
+    font-size: 15px; 
+    cursor: pointer;   
+}
+
+
+ .second-btn{
+    color: #fff;
+    padding: 17px 70px;
+    border-radius: 30px ;
+    font-size: 15px;
+    position: relative;
+    background-color: #ed1c24;
+    border: 1px solid red;
+    margin-left: 8px;
+    cursor: pointer;
+    /* text-decoration: none; */
+
+    
+} 
+
+.btn{
+    position: absolute;
+    left: 10% ;
+    top: 35%;
+    color: #fff;
+    font-size: 15px;
+
+}
+    
+
+
+
+.font{
+    position: absolute;
+    color: #ed1c24;
+    background-color: #fff;
+    padding: 5% 6%;
+    border-radius: 50%;
+    right: 6%;
+    top: 20%;
+    font-weight:bolder;
+} 
+
+
+
+.hero{
+    height: 40em;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    margin-top: 0px;
+    
+}
+
+.hero-1{
+    font-size: 1.6em;
+    font-weight: 200;
+    font-family: "apercu";
+    text-align: center;
+}
+
+.welcome{
+    font-family: "apercu";
+    
+}
+.logo-text{
+   
+    font-family: "futurak";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    
+}
+
+.brand{
+    font-family: "apercu";
+    font-size: 1.4em;
+    font-weight: 200;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hero-content{
+    font-family: "apercu";
+    font-size: 0.7em;
+    font-weight: 200;
+    color: rgba(255, 255, 255,0.6);
+    line-height: 30px;
+}
+
+
+.image-container{
+
+    margin-top: 5%;
+}
+
+.image-1{
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.image-2{
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 7px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.image-3{
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.btn-child{
+    padding: 18px 50px ;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255,0.2);
+    border-radius: 25px;
+}
+
+
+
+.franchise-container{
+    color: white;
+    background-color: rgba(0, 0, 0,0.95);
+    height: 90em;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    position: relative;
+    width: 100%;
+    
+}
+
+.head{
+    text-align: center;
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+
+}
+
+.sub-head{
+    text-align: center;
+    /* font-family: 'futurak'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 62px;
+}
+
+.franchise-content{
+    line-height: 30px;
+    font-size: 1.1em;
+    color: rgba(255, 255, 255,0.6);
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0.4%;
+    right: 2%;
+    height: 35em;
+}
+
+.islamabad-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.islamabad-child-container{
+
+width: 100%;
+margin-right:1em
+}
+
+.islamabad-child-container-image{
+
+    width: 55%;
+    margin-left: 9em ;
+}
+
+.islamabad-image{
+    width: 33em;
+    height: 20em;
+}
+
+.islamabad-child-container-child{
+    color: red;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-transform: uppercase ;
+    letter-spacing: 5px;
+    font-family: "apercu";
+}
+
+.islamabad-child-container-child2{
+    line-height: 50px;
+    font-size: 1.9em  ;
+  
+}
+
+.islamabad-child-container-3{
+    font-family: "apercu";
+    line-height: 50px;
+    font-size: 1.1em;
+    /* position: relative; */
+    /* left: 2%; */
+    color: rgba(255, 255, 255,0.6);
+}
+
+.islamabad-child-container-4{
+ 
+    font-size: 1em;
+    color: rgba(255, 255, 255,0.6);
+}
+
+
+.franchise-btn{
+    margin-top: 15%;
+}
+
+.franchise-2{
+    padding: 30px 105px ;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid  rgba(255, 255, 255, 0.4) ;
+    position: relative;
+}
+
+.franchise{
+    font-size: 17px;
+    top: 35%;
+    left: 15%;
+    position: absolute;
+    
+}
+
+.franchise-font{
+    background-color: white;
+    padding: 4px 10px ;
+    border-radius: 25px;
+}
+
+.franchise-font{
+    color: red;
+    font-size: 1.6em;
+    font-weight: 800;
+    position: absolute;
+    top: 15%;
+    right: 8%;
+}
+
+/* faislabad */
+
+.franchise-image{
+    width: 43em;
+    height: 25em;
+}
+
+.faislabad-parent{
+    margin-top: 5%;
+    display: flex;
+    gap: 4%;
+}
+ 
+.faislabad-image{
+
+    width: 33em;
+    height: 20em;
+}
+
+
+/* .faislabad-child-container{
+
+width: 80%;
+margin-right:7em
+} */
+
+
+
+.faislabad-child-container-child{
+    font-family: "apercu";
+    color: red;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-transform: uppercase ;
+    letter-spacing: 5px;
+    
+    
+    /* line-height: 48px; */
+   
+}
+
+.faislabad-child-container-child2{
+    line-height: 55px;
+    /* font-family: "futurak"; */
+    font-size: 2em  ;
+}
+
+.faislabad-child-container-3{
+    font-family: "apercu";
+    line-height: 55px;
+    font-size: 1.2em;
+    /* position: relative; */
+    /* left: 2%; */
+    color: rgba(255, 255, 255,0.6);
+}
+
+.faislabad-child-container-4{
+    font-family: "apercu";
+    font-size: 1.2em;
+    color: rgba(255, 255, 255,0.6);
+}
+
+
+.franchise-btn{
+    margin-top: 20%;
+    
+}
+
+.franchise-2{
+    padding: 25px 84px ;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid  rgba(255, 255, 255, 0.4) ;
+    position: relative;
+}
+
+.franchise{
+    font-size: 14px;
+    top: 35%;
+    left: 15%;
+    position: absolute;
+    
+}
+
+.franchise-font{
+    background-color: white;
+    padding: 5px 6px ;
+    border-radius: 30px;
+    color: red;
+    font-weight: 800;
+    position: absolute;
+    top: 15%;
+    right: 8%;
+}
+
+
+
+
+.express-franchise{
+    height: 150em;
+    background-color: rgba(0, 0, 0,1);
+    display: flex;
+    padding: 5%;
+    justify-content: center; 
+    position: relative;
+} 
+
+
+.express-franchise-child-1{
+     color: white;
+     text-align: center;
+    
+    
+} 
+.salt{
+    font-size: 3em;
+    line-height: 1.3em;
+    font-family: "futurak";
+}
+ .express-franchise-child-2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.backgound-logo{
+    position: absolute;
+    left: 2%;
+    width: 26%;
+    top: 2%;
+    height: 28.3em;
+}
+
+.express-image-container{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    gap: 3%;
+    padding: 0 60px;
+}
+
+.express-image-1{
+    width: 30%;
+}
+
+.express-image-2{
+    width: 50%;
+}
+
+.express-image-3{
+    width: 40%;
+} 
+
+
+.text-container{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 1%; */
+    /* align-items: center; */
+    line-height: 3em;
+    font-family: "apercu";
+}
+
+.text-child-1{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    
+}
+
+.text-child-2{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    /* padding-right: 10px; */
+    
+    
+}
+
+.text-child-3{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    padding-right: 70px;
+    /* text-align: center; */
+    
+}
+
+
+.adress-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.adress-child-container-child2{
+    font-size: 1.3em;
+    font-family: "apercu";
+}
+
+.specific-font{
+    font-family: "futurak";
+}
+
+.adress-child-container-3{
+    line-height: 4em;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.Number{
+    
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.adress-child-container-4{
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.franchise-btn-1{
+    margin-top: 10%;
+  
+}
+
+.franchise-btn-2{
+    margin-top: 13%;
+    
+}
+
+.franchise-btn-3{
+    margin-top: 9%;
+    
+}
+
+
+.salt-container{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.salt-container-child{
+    font-size: 1.4em;
+    /* width: 90%; */
+}
+
+
+/* ### */
+
+.salt-container-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .salt-container-content-child {
+    flex: 1 1 28%;
+    padding: 15px 20px;   
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.specific{
+    margin-left: 30px;
+}
+
+ .salt-container-content-child i {
+    /* margin-bottom: 10px; */
+    font-size: 18px; 
+} 
+
+.phone-icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.phone-specific{
+    margin-left: 2%;
+}
+.phone-icon-container-child{
+
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+
+}
+
+.container-btn{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.child{
+    margin-top: 3%;
+}
+
+
+.lahore{
+    width: 32%;
+}
+
+.fourth-row-container-image{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+
+}
+
+.fourth-row-image-1{
+    width: 30%;
+}
+
+
+.fourth-row-image-2{
+    width: 30%;
+}
+
+.text-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.salt-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+
+.phone-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.7%;
+}
+
+
+.last-row-adress-container{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.specific-2{
+   margin-left: 6%;
+}
+
+.container-btn-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.background-2{
+    position: absolute;
+    top: 63%;
+    right: 0%;
+}
+
+
+.last-section-3{
+    
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 40em;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+
+}
+
+.display-container{
+    display: flex;
+    justify-content: center;
+}
+
+.head-2{
+
+    font-size: 3.5em;
+    text-align: center;
+    
+
+}
+
+.sub-head-2{
+    font-size: 0.9em;
+    margin-top: 1.8%;
+}
+
+
+.specific-container{
+    /* gap: 20%; */
+    display: flex;
+    margin-top: 3%;
+     /* margin: 0; */
+    /* padding-left: 20;  */
+    gap: 3%;
+
+
+}
+
+.specific-image{
+    width: 40em;
+    height: 25em;
+    margin-left: -15px;
+    
+}
+
+.specific-child-container{
+    margin-top: 5%;
+}
+
+.gujar{
+    color: rgb(250, 7, 7,0.9);
+}
+.faislabad-adress{
+    font-size: 1.1em;
+}
+
+.faislabad-phone{
+    
+        font-size: 1.1em;
+}
+
+.village-btn{
+    margin-top: 9%;
+}
+
+.village-btn-2{
+    background-color: #28a745;
+    border: 1px solid   #28a745;
+}
+
+.specific-color{
+    color: #28a745;
+}
+
+
+
+
+/* second last-section */
+.second-last-section{
+    height: 85em;
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+}
+
+.dislpay-container-2{
+    display: flex;
+    justify-content: center;
+}
+
+.parent-head{
+font-size: 3em;
+text-align: center;
+}
+
+.parent-subhead{
+    font-size: 1em;
+    /* line-height: 5%; */
+    font-weight: bolder;
+}
+
+.opening{
+    font-size: 0.6em;
+}
+
+
+.content-boxes-child{
+
+    width: 22em;
+    height: 15em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.display-font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+
+.location-2{
+    font-size: 1.8em;
+    color: rgba(199, 44, 44, 0.945);
+    padding: 4% 5%;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 30px;
+}
+
+.soon{
+    display: flex;
+    justify-content: center;
+    color: rgb(211, 35, 35);
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 5px;
+}
+
+.inside-box{
+    margin-top: 7%;
+}
+
+.saltn-pepper{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.saltn{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.express{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.garden{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 1.4em;
+}
+
+.sadhcoke{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8%;
+    font-size: 1.3em;
+}
+
+.content-boxes{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.third-row{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-feed{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 2.4em;
+    font-weight: 500;
+}
+
+.restuarant-images{
+    width: 15.4em;
+    height: 15em;
+}
+
+.display-all-images{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 1.7%;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.95);
+    height: 36.7em;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    z-index: 1;
+    font-family: "apercu";
+    
+}
+
+.displayfooter{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    /* margin-top: 5%; */
+    padding-top: 5%;
+}
+
+.content-width{
+     width: 30%;
+    line-height: 1.3em; 
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-head{
+    font-size: 1.1em;
+}
+
+.footer-content{
+    width: 0%;
+}
+
+.footer-links{
+    margin-top: 1em;
+    list-style-type: none;
+}
+
+.footer-links li{
+
+    margin-top: 10%;
+    color: rgba(255,255,255,0.7);
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.sub-heading-footer{
+    margin-top: 8%;
+    font-size: 1.1em;
+    font-weight: 900px;
+}
+
+.sub-head-footer-2{
+
+    margin-top: 6%;
+    font-size: 0.9em;
+    color: rgba(255,255,255,0.7);
+}
+
+.footer-logo{
+    margin-right: 2%;
+    margin-left: 5%;
+}
+.fooer-main-content{
+    margin-top: 4%;
+    line-height: 23px;
+    font-size: 1.1em;
+   color: rgba(255, 255, 255, 0.7)  ; 
+    
+
+}
+
+.social-media-font-1{
+    padding: 12px 15px;
+    background-color: rgb(201, 19, 19,0.9);
+    border-radius: 40px;
+}
+
+.social-media-font-2{
+    padding: 12px 13px;
+    background-color: rgb(201, 19, 19,0.9);
+    border-radius: 40px;
+}
+
+.social-media-font-3{
+    padding: 12px 13px;
+    background-color: rgb(201, 19, 19,0.9);
+    border-radius: 40px;
+}
+
+.margin{
+    margin: 0 2px;
+}
+
+
+.top-aligment{
+    margin-top: 1em;
+}
+
+
+.privacy{
+    margin-top: 2em;
+    font-size: 1.1em;
+    color: rgba(255,255,255,0.7);
+}
+
+.policy{
+    margin-left: 3%;
+    font-size: 0.8em;
+}
+
+.rule{
+        margin-top: 5%;
+        
+        width: 100%; 
+        height: 1px; 
+        background-color: #292929; 
+        border: none; 
+      
+}
+
+
+.end-row{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 45em;
+    
+}
+
+.last-content-2{
+
+    color: rgba(255,255,255,0.5);
+}
+
+.last-back{
+    position: absolute;
+    top: 12em;
+    left: 2em;
+    z-index: -1;
+}
+
+.padding{
+    padding-top: 20px;
+}
+
+.padding-2{
+    padding-top: 5%;
+}
